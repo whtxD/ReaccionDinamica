@@ -1,0 +1,103 @@
+/kill @e[type=item,nbt={Item:{id:"minecraft:porkchop"}},distance=..100]
+/kill @e[type=pig,distance=..100]
+
+SIMULADOR QUÍMICO DINÁMICO
+│
+├── 1. BASE DE DATOS
+│   └── JSON
+│       ├── Elementos
+│       ├── Masa atómica
+│       ├── Valencias
+│       ├── Electronegatividad
+│       ├── Puntos de fusión/ebullición
+│       └── Otras propiedades
+│
+├── 2. MODELO DE OBJETOS
+│   ├── Elemento
+│   ├── Átomo
+│   │   ├── Posición
+│   │   ├── Velocidad
+│   │   ├── Energía
+│   │   └── Carga
+│   │
+│   ├── Enlace
+│   │   ├── Átomos conectados
+│   │   ├── Tipo
+│   │   ├── Orden
+│   │   └── Energía
+│   │
+│   └── Molécula
+│       ├── Átomos
+│       ├── Enlaces
+│       ├── Carga
+│       └── Energía/estabilidad
+│
+├── 3. GENERACIÓN DE MOLÉCULAS
+│   ├── Analizar valencias
+│   ├── Analizar cargas
+│   ├── Crear posibles enlaces
+│   ├── Generar estructuras candidatas
+│   └── Evaluar estabilidad
+│
+│   → No es necesario programar H₂O, H₂SO₄, etc.
+│     El sistema intenta construirlas mediante reglas.
+│
+├── 4. MOTOR DE REACCIONES
+│   ├── Detectar posibles interacciones
+│   ├── Romper enlaces
+│   ├── Crear nuevos enlaces
+│   ├── Generar productos
+│   ├── Comprobar conservación de átomos
+│   └── Balancear ecuaciones
+│
+├── 5. SIMULACIÓN DINÁMICA
+│   ├── Movimiento de átomos/moléculas
+│   ├── Velocidad
+│   ├── Colisiones
+│   ├── Energía cinética
+│   ├── Temperatura
+│   └── Probabilidad de reacción
+│
+├── 6. ESTADOS FÍSICOS
+│   ├── Sólido
+│   ├── Líquido
+│   └── Gas
+│
+│   Temperatura
+│       ↓
+│   Estado físico
+│       ↓
+│   Movimiento/interacciones
+│
+├── 7. ENTORNO
+│   ├── Temperatura
+│   ├── Presión
+│   ├── Concentración
+│   └── Disolvente
+│       └── Ej. agua
+│           ├── Puede facilitar reacciones
+│           ├── Puede modificar probabilidades
+│           └── Puede estabilizar especies
+│
+├── 8. ENERGÍA Y PROBABILIDAD
+│   ├── Energía de enlaces
+│   ├── Energía necesaria para romper enlaces
+│   ├── Energía liberada/formada
+│   ├── Energía de activación
+│   └── Probabilidad de reacción
+│
+├── 9. INTERFAZ GRÁFICA
+│   ├── Visualización de átomos
+│   ├── Visualización de moléculas
+│   ├── Movimiento
+│   ├── Formación/ruptura de enlaces
+│   ├── Temperatura y parámetros
+│   └── Resultado de las reacciones
+│
+└── 10. VALIDACIÓN
+    ├── Tests unitarios
+    ├── Conservación de átomos
+    ├── Valencias
+    ├── Balanceo
+    ├── Reacciones conocidas
+    └── Rendimiento del simulador

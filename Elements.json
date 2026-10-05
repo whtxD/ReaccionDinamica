@@ -1,0 +1,231 @@
+{
+    "elementos": [
+        {
+            
+            "nombre": "Hidrogeno",
+            "simbolo": "H",
+            "numero_atomico": 1,
+            "masa_atomica": 1.008,
+            "grupo": 1,
+            "periodo": 1,
+            "categoria": "no metal",
+            "estado_estandar": "gas",
+            "configuracion_electronica": "1s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1, -1],
+            "electronegatividad": 2.20,
+            "radio_covalente_pm": 31,
+            "radio_van_der_waals_pm": 120,
+            "punto_fusion_K": 13.99,
+            "punto_ebullicion_K": 20.27,
+            "energia_ionizacion_kJ_mol": 1312.0,
+            "afinidad_electronica_kJ_mol": 72.8,
+            "energia_enlace_kJ_mol": {
+                "H-H": 436
+            },
+            "visual": {
+                "radio_px": 5,
+                "color": "#03bafc"
+            }
+        },
+        {
+            "nombre": "Litio",
+            "simbolo": "Li",
+            "numero_atomico": 3,
+            "masa_atomica": 6.9410,
+            "grupo": 1,
+            "periodo": 2,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.98,
+            "radio_covalente_pm": 134,
+            "radio_van_der_waals_pm": 182,
+            "punto_fusion_K": 453.65,
+            "punto_ebullicion_K": 1615,
+            "energia_ionizacion_kJ_mol": 529.2,
+            "afinidad_electronica_kJ_mol": 59.6,
+            "energia_enlace_kJ_mol": {
+                "Li-Li": 105
+            },
+            "visual": {
+                "radio_px": 16,
+                "color": "#E30022"
+            }
+
+        },
+        {
+            "nombre": "Sodio",
+            "simbolo": "Na",
+            "numero_atomico": 11,
+            "masa_atomica": 22.990,
+            "grupo": 1,
+            "periodo": 3,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s2 2p6 3s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.93,
+            "radio_covalente_pm": 154,
+            "radio_van_der_waals_pm": 227,
+            "punto_fusion_K": 370.87,
+            "punto_ebullicion_K": 1156,
+            "energia_ionizacion_kJ_mol": 495.8,
+            "afinidad_electronica_kJ_mol": 52.9,
+            "energia_enlace_kJ_mol": {
+                "Na-Na": 73
+            },
+            "visual": {
+                "radio_px": 19,
+                "color": "#FFD700"
+            }
+        },
+        {
+            "nombre": "Potasio",
+            "simbolo": "K",
+            "numero_atomico": 19,
+            "masa_atomica": 39.0983,
+            "grupo": 1,
+            "periodo": 4,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s2 2p6 3s2 3p6 4s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.82,
+            "radio_covalente_pm": 196,
+            "radio_van_der_waals_pm": 275,
+            "punto_fusion_K": 336.53,
+            "punto_ebullicion_K": 1032,
+            "energia_ionizacion_kJ_mol": 418.8,
+            "afinidad_electronica_kJ_mol": 48.4,
+            "energia_enlace_kJ_mol": {
+                "K-K": 58
+            },
+            "visual": {
+                "radio_px": 22,
+                "color": "#9B59B6"
+            }
+        },
+        {
+            "nombre": "Rubidio",
+            "simbolo": "Rb",
+            "numero_atomico": 37,
+            "masa_atomica": 85.4678,
+            "grupo": 1,
+            "periodo": 5,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.82,
+            "radio_covalente_pm": 211,
+            "radio_van_der_waals_pm": 303,
+            "punto_fusion_K": 312.46,
+            "punto_ebullicion_K": 961,
+            "energia_ionizacion_kJ_mol": 403.0,
+            "afinidad_electronica_kJ_mol": 46.9,
+            "energia_enlace_kJ_mol": {
+                "Rb-Rb": 49
+            },
+            "visual": {
+                "radio_px": 25,
+                "color": "#8E44AD"
+            }
+        },
+        {
+            "nombre": "Cesio",
+            "simbolo": "Cs",
+            "numero_atomico": 55,
+            "masa_atomica": 132.90545,
+            "grupo": 1,
+            "periodo": 6,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.79,
+            "radio_covalente_pm": 225,
+            "radio_van_der_waals_pm": 343,
+            "punto_fusion_K": 301.59,
+            "punto_ebullicion_K": 944,
+            "energia_ionizacion_kJ_mol": 375.7,
+            "afinidad_electronica_kJ_mol": 45.5,
+            "energia_enlace_kJ_mol": {
+                "Cs-Cs": 43
+            },
+            "visual": {
+                "radio_px": 28,
+                "color": "#A855F7"
+            }
+        },
+        {
+            "nombre": "Francio",
+            "simbolo": "Fr",
+            "numero_atomico": 87,
+            "masa_atomica": 223,
+            "grupo": 1,
+            "periodo": 7,
+            "categoria": "metal alcalino",
+            "estado_estandar": "solido",
+            "configuracion_electronica": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s1",
+            "electrones_valencia": 1,
+            "valencia": [1],
+            "estados_oxidacion": [1],
+            "electronegatividad": 0.7,
+            "radio_covalente_pm": 260,
+            "radio_van_der_waals_pm": 348,
+            "punto_fusion_K": 294,
+            "punto_ebullicion_K": 923,
+            "energia_ionizacion_kJ_mol": 380,
+            "afinidad_electronica_kJ_mol": 44,
+            "energia_enlace_kJ_mol": {
+                "Fr-Fr": 64 
+            },
+            "visual": {
+                "radio_px": 31,
+                "color": "#FF4D4D"
+            }
+        },
+        {
+            "nombre": "Oxigeno",
+            "simbolo": "O",
+            "numero_atomico": 8,
+            "masa_atomica": 15.999,
+            "grupo": 16,
+            "periodo": 2,
+            "categoria": "no metal",
+            "estado_estandar": "gas",
+            "configuracion_electronica": "1s2 2s2 2p4",
+            "electrones_valencia": 6,
+            "valencia": [2],
+            "estados_oxidacion": [-2, -1, 2],
+            "electronegatividad": 3.44,
+            "radio_covalente_pm": 66,
+            "radio_van_der_waals_pm": 152,
+            "punto_fusion_K": 54.36,
+            "punto_ebullicion_K": 90.19,
+            "energia_ionizacion_kJ_mol": 1313.9,
+            "afinidad_electronica_kJ_mol": 141.0,
+            "energia_enlace_kJ_mol": {
+                "O-O": 146,
+                "O=O": 498
+            },
+            "visual": {
+                "radio_px": 15,
+                "color": "#329e00"
+            }
+        }
+    ]
+}
